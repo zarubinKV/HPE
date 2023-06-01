@@ -5,8 +5,8 @@
 1) pip install -r requirements.txt
 2) Создать папку data
 3) Скачать веса в созданную папку data\
-3.1. Наша модель: [Weight](https://drive.google.com/file/d/1jaMKBXr_YzofVmwLZ2z3lZsSaeE6H40I/view?usp=share_link)\
-3.2. Open source модель: [Weight](https://github.com/OlgaChernytska/2D-Hand-Pose-Estimation-RGB/blob/972c2102d95e14ebb37b1cbd452018ebd6706a44/weights/model_final)\
+3.1. Наша модель: [Weight](https://drive.google.com/drive/folders/1E0l6ZtNgU3nuXZxIfEJQDX3SF79RnuQc?usp=sharing)\
+3.2. Open source модель: [Weight](https://github.com/OlgaChernytska/2D-Hand-Pose-Estimation-RGB/blob/972c2102d95e14ebb37b1cbd452018ebd6706a44/weights/model_final)
 
 ### Датасет
 [FreiHAND Dataset](https://lmb.informatik.uni-freiburg.de/resources/datasets/FreihandDataset.en.html)
@@ -36,7 +36,5 @@
 Решено использовать нашу модель, так как оно значительно быстрее.
 
 Также в реализации используется предобученная [YOLOv4-Tiny](https://github.com/cansik/yolo-hand-detection). Её применение обусловлено особенностями датасета, на котором происходило обучение: на всех изображениях рука находится в центре кадра, поэтому с помощью yolo мы определяем, где на кадре находится рука, чтобы решить проблему привязки "поиска руки" к центру изображения.
-
-Итоговый результат распознавания руки:
 
 Итоговый результат рисования:
