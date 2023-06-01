@@ -8,6 +8,9 @@
 3.1. Наша модель: [Weight](https://drive.google.com/drive/folders/1E0l6ZtNgU3nuXZxIfEJQDX3SF79RnuQc?usp=sharing)\
 3.2. Open source модель: [Weight](https://github.com/OlgaChernytska/2D-Hand-Pose-Estimation-RGB/blob/972c2102d95e14ebb37b1cbd452018ebd6706a44/weights/model_final)
 
+4) Заменить в main.py параметры main, std, выполнив скрипт meanstd_check.py.
+5) Запуск main.py
+
 ### Датасет
 [FreiHAND Dataset](https://lmb.informatik.uni-freiburg.de/resources/datasets/FreihandDataset.en.html)
 
